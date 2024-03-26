@@ -14,9 +14,10 @@ public class Main {
 
     public static String dataFormattata(OffsetDateTime dataEsercizio3) {
 
-        String datePat = dataEsercizio3.format(DateTimeFormatter.ofPattern("dd MM yyyy"));
-//          System.out.println ("Data per pattern = " + datePat);
+        String datePat = dataEsercizio3.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"));
+        System.out.println ("Data per pattern = " + datePat);
         return datePat;
     }
+
 }
 
