@@ -9,7 +9,7 @@ class MainTest {
     @Test
     void dataFormattata() {
         String result = testing.dataFormattata(dataEsercizio3);
-        assertEquals("01 03 2023", result);
+        assertEquals("01 March 2023", result);
     }
 }
 
